@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply antialiased;
+}
+
+a {
+  @apply text-brand font-medium;
+}
+
+table {
+  @apply w-full border-collapse text-sm;
+}
+
+th {
+  @apply bg-slate-100 text-left font-semibold uppercase tracking-wide text-xs text-slate-500;
+}
+
+td, th {
+  @apply border border-slate-200 px-3 py-2 align-top;
+}
